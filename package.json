@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "server": "json-server --watch db.json"
   },
   "devDependencies": {
+    "json-server": "^0.17.0",
     "parcel": "^2.6.0"
   },
   "dependencies": {
